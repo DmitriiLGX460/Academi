@@ -1,0 +1,26 @@
+
+<meta charset="utf-8">
+<button id="show-modal" class="btn">Вы успешно зарегистрированны на сайте</button>
+<script>
+       var modal = $modal();
+       document.querySelector('#show-modal').addEventListener('click', function(e) {
+                modal.show();
+    });
+</script>
+<style>
+    body{
+        background: burlywood;
+    }
+
+    .btn{
+        background: #1dabb8;
+        border-radius: 5px;
+        color: #fff;
+        /*float: right;*/
+        font-weight: bold;
+        margin: 10px auto;
+        padding: 12px 20px;
+        display: block;
+    }
+
+</style>
